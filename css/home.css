@@ -1059,7 +1059,12 @@ footer .part1{
             .join-community-container {
             height: 460px;
         }
+        .card1{
+            width:350px;
+            height:500px;
 
+           
+        }
            /* -------------------footer------------------------- */
            footer{
               display: flex;
