@@ -928,7 +928,7 @@ footer .part1{
 
         .logo{
             display: flex;
-            row-gap                                                                                                                 : 25px;
+            row-gap: 25px;
         }
 
         .logo img{
@@ -1022,7 +1022,7 @@ footer .part1{
            } 
 
             .join-community-container {
-            height: 369px;
+            height: 380px;
         }
 
            /* -------------------footer------------------------- */
