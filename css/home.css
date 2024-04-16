@@ -298,7 +298,7 @@ font-family: para;
 } 
 /* --------------------------join community---------------- */
 .join-community-container{
-    height: 300px;
+    height: 480px;
     width: 100%;
     text-align: center;
     padding: 10px;
@@ -331,27 +331,33 @@ font-family: para;
 }
 /* ---------------Community cards---------------------- */
 .community_card{
+    height: 100%;
+    width: 100%;
+    padding: 1vw; 
+    gap: 34px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-     flex-wrap: wrap;
-    padding: 1vw;
-    position: relative;
-}   
-/* -------------------card1-------------- */
-/* ---------------------Before------------- */
+    flex-wrap: wrap;
+}
+
 .card1{
-    flex-basis: 32%;
+    width: 300px;
+    height: 400px;
+    perspective: 1000px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transform-style: preserve-3d;
     background-color: #f7f7f7;
-    height: 350px;
     border-radius: 12px;
     margin: 1.2vw;
-    padding: 1vw;
 }
 .card1 img{
-    height: 100px;
     width: 100px;
+    height: 100px;
+    object-fit: cover;
     border-radius: 12px;
+    margin-top: 14px;
 }
 .card1 h3{
     margin-top: 10px;
@@ -364,7 +370,7 @@ font-family: para;
     font-family: para;
 }
 .card1 button{
-    margin-top:8px;
+    margin-top:38px;
     padding: 1vw;
     width: 180px;
     border-radius: 0.7vw;
@@ -376,295 +382,17 @@ font-family: para;
     text-decoration: none;
     font-size: 12px;
     font-family: para;
-    color:#f7f7f7;
-    
+    color:#f7f7f7;  
 }
-/* ----------------------After----------------- */
+
 .card1:hover{
-    flex-basis: 32%;
     background-color: var(--footer-bg-color) ;
-    height: 350px;
+    height: 390px;
     border-radius: 12px;
     scale: 1.1;
     padding: 1vw;
     transition: 0.8s;
     z-index: 1;
-    
-}
-
-/* --------------------card2----------------- */
-/* ----------------------Before-------------------- */
-.card2{
-    flex-basis: 32%;
-   
-    background-color: #f7f7f7;
-   height: 350px;
-   border-radius: 12px;
-   scale: 1;
-   padding: 1vw;
-   margin: 1.2vw;
-}
-.card2 img{
-    height: 100px;
-    width: 100px;
-    border-radius: 12px;
-}
-.card2 h3{
-    margin-top: 1vw;
-    font-size:var(--sub-head-size);
-    font-family: sub-head;
-    color: #000;
-}
-.card2 p{
-    margin-top:5px;
-    font-size:var(--para-font-size);
-    font-family: para;
-    line-height: var(--p-line-height);
-    color: #000;
-}
-.card2 button{
-    margin-top:8px;
-    padding: 1vw;
-    width: 180px;
-    border-radius: 0.7vw;
-    background: linear-gradient(to right, #AA3D71, #F1966E);
-    border: none;
-    cursor: pointer;
-}
-.card2 button a{
-    text-decoration: none;
-    font-size: 12px;
-    font-family: para;
-    color:#f7f7f7;
-    
-}
-
-/* --------------------------------After--------------------------- */
-.card2:hover{
-    flex-basis: 32%;
-    background-color:var(--footer-bg-color) ;
-    height: 350px;
-    border-radius: 12px;
-    scale: 1.1;
-    padding: 1vw;
-    transition: 0.8s;
-    z-index: 1;
-}
-
-
-/* -----------------card3------------------- */
-/* ---------------Before-------------- */
-.card3{
-    flex-basis: 32%;
-    margin: 1.2vw;
-    background-color: #f7f7f7;
-    height: 350px;
-    border-radius: 12px;
-    padding: 1vw;
-}
-.card3 img{
-    height: 100px;
-    width: 100px;
-    border-radius: 12px;
-}
-.card3 h3{
-    margin-top: 1vw;
-    font-size:var(--sub-head-size);
-    font-family: sub-head;
-}
-.card3 p{
-    margin-top:8px;
-    font-size:var(--para-font-size);
-    font-family: para;
-}
-.card3 button{
-    margin-top: 8px;
-    padding: 1vw;
-    width: 180px;
-    border-radius: 0.7vw;
-    background: linear-gradient(to right, #AA3D71, #F1966E);
-    border: none;
-    cursor: pointer;
-}
-.card3 button a{
-    text-decoration: none;
-    font-size: 12px;
-    font-family: para;
-    color:#f7f7f7;
-    
-}
-/* ---------------After----------------- */
-.card3:hover{
-    flex-basis: 32%;
-    background-color:var(--footer-bg-color) ;
-    height: 350px;
-    border-radius: 12px;
-    scale: 1.1;
-    padding: 1vw;
-    transition: 0.8s;
-    z-index: 1;
-    
-}
-/* ---------------------Card4------------------- */
-/* ----------------------Before--------------------- */
-.card4{
-    flex-basis: 32%;
-    margin: 1.2vw;
-    background-color: #f7f7f7;
-    height: 350px;
-    border-radius: 12px;
-    padding: 10px;
-}
-.card4 img{
-    height: 100px;
-    width: 100px;
-    border-radius: 12px;
-}
-.card4 h3{
-    margin-top: 1vw;
-    font-size:var(--sub-head-size);
-    font-family: sub-head;
-    /* line-height: 25px; */
-}
-.card4 p{
-    margin-top:8px;
-    font-size:var(--para-font-size);
-    font-family: para;
-}
-.card4 button{
-    margin-top: 1vw;
-    padding: 1vw;
-    width: 180px;
-    border-radius: 0.7vw;
-    background: linear-gradient(to right, #AA3D71, #F1966E);
-    border: none;
-    cursor: pointer;
-}
-.card4 button a{
-    text-decoration: none;
-    font-size: 12px;
-    font-family: para;
-    color:#f7f7f7;
-    
-}
-/* ---------------After----------------- */
-.card4:hover{
-    flex-basis: 32%;
-    background-color:var(--footer-bg-color) ;
-    height: 350px;
-    border-radius: 12px;
-    scale: 1.1;
-    padding: 1vw;
-    transition: 0.8s;
-    z-index: 1;
-    
-}
-/* ---------------------Card5------------------- */
-/* ----------------------Before--------------------- */
-.card5{
-    flex-basis: 32%;
-    margin: 1.2vw;
-    background-color: #f7f7f7;
-    height: 350px;
- 
-    border-radius: 12px;
-    padding: 10px;
-}
-.card5 img{
-    height: 100px;
-    width: 100px;
-    border-radius: 12px;
-}
-.card5 h3{
-    margin-top: 1vw;
-    font-size: var(--sub-head-size);
-    font-family: sub-head;
-}
-.card5 p{
-    margin-top: 8px;
-    font-size: var(--para-font-size);
-    font-family: para;
-}
-.card5 button{
-    margin-top: 8px;
-    padding: 1vw;
-    width: 180px;
-    border-radius: 0.7vw;
-    background: linear-gradient(to right, #AA3D71, #F1966E);
-    border: none;
-    cursor: pointer;
-}
-.card5 button a{
-    text-decoration: none;
-    font-size: 12px;
-    font-family: para;
-    color:#f7f7f7;
-    
-}
-/* ---------------After----------------- */
-.card5:hover{
-    flex-basis: 32%;
-    background-color: var(--footer-bg-color) ;
-    height: 350px;
-    border-radius: 12px;
-    scale: 1.1;
-    padding: 1vw;
-    transition: 0.8s;
-    z-index: 1;
-    
-}
-/* ---------------------Card6------------------- */
-/* ----------------------Before--------------------- */
-.card6{
-    flex-basis: 32%;
-    margin: 1.2vw;
-    background-color: #f7f7f7;
-    height: 350px;
-    border-radius: 12px;
-    padding: 1vw;
-}
-.card6 img{
-    height: 100px;
-    width: 100px;
-    border-radius: 12px;
-}
-.card6 h3{
-    margin-top: 1vw;
-    font-size:var(--sub-head-size);
-    font-family: sub-head;
-}
-.card6 p{
-    margin-top: 8px;
-    font-size: var(--para-font-size);
-    font-family: para;
-}
-.card6 button{
-    margin-top: 8px;
-    padding: 1vw;
-    width: 180px;
-    border-radius: 0.7vw;
-    background: linear-gradient(to right, #AA3D71, #F1966E);
-    border: none;
-    cursor: pointer;
-}
-.card6 button a{
-    text-decoration: none;
-    font-size: 12px;
-    font-family: para;
-    color:#f7f7f7;
-    
-}
-/* ---------------After----------------- */
-.card6:hover{
-    flex-basis: 32%;
-    background-color: var(--footer-bg-color);
-    height: 350px;
-    border-radius: 12px;
-    scale: 1.1;
-    padding: 1vw;
-    transition: 0.8s;
-    z-index: 1;
-    
 }
 
 
@@ -1499,6 +1227,10 @@ margin-top: 10px;
             width: 100%;
             
            } 
+
+            .join-community-container {
+            height: 369px;
+        }
 
            /* -------------------footer------------------------- */
            footer{
