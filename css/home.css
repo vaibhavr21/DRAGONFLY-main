@@ -954,9 +954,11 @@ footer .part1{
             margin-top: 4vw;
             position:absolute;
             top:6px;
-            right: 25px;
+            right: 25px; 
+        }
+         .navbar-container .nav-links{
+            display: block;
             
-          
         }
          .navbar-container ul{
             background-color:#f7f7f7;
@@ -979,11 +981,17 @@ footer .part1{
             margin-top: 1vw;
         }
         .navbar-container .nav-links .login_signup-btn .register-btn{
-         width: 62px;
+          width: 100px;
          padding: 10px;
          border-radius: 12px;
 
      }
+         .navbar-container ul li .signoutbtn{
+        padding: 2vw;
+        background-color:black;
+        border: 1px solid black;
+        border-radius: 3px;
+    }
         .navbar-container .fa-bars{
             display: block;
             position: absolute;
@@ -992,6 +1000,34 @@ footer .part1{
             right: 15px;
             
             
+        }
+        .nav-links #userprofile{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            position: absolute;
+            top: 80px;
+            right: 20px;
+           
+        }
+        .nav-links .fa-user {
+            font-size: 15px;
+        
+        }
+        .nav-links #username{
+            font-size: 15px;
+        }
+        .navbar-container ul li .signoutbtn{
+            padding: 10px;
+            background-color:black;
+            
+            border: 1px solid black;
+            border-radius: 12px;
+        }
+        .login_signup-btn .signoutbtn {
+            color: white;
+            text-decoration: none;
         }
            /* --------------------------page1--------------------- */
            .page1{
