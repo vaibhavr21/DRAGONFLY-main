@@ -780,9 +780,7 @@ footer .part1{
     .nav-links{
         gap: 20px;
     }
-    .navbar-container .nav-links a{
-        font-size: 25px;
-    }
+    
     .login_signup-btn .login-btn{
         width: 100px;
        }
